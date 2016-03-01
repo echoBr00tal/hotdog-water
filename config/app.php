@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://sandbox.partistarter.com',
+	'url' => 'http://hw.partistarter.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', ''),
+	'key' => env('APP_KEY'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 

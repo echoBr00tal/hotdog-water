@@ -49,3 +49,5 @@ Temporary Items
 
 #laravel server files
 .env
+.htaccess
+
