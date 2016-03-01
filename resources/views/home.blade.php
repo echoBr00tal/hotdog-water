@@ -9,6 +9,7 @@
 
 				<div class="panel-body">
                                     <p>Yay homepage!</p>
+                                    <p>Testing PULL</p>
 				</div>
 			</div>
 		</div>

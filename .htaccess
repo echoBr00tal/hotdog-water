@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "protected_sandbox"
+AuthUserFile "/home/partistarter/.htpasswds/public_html/sandbox/passwd"
+require valid-user
