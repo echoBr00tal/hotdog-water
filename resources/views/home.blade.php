@@ -8,7 +8,7 @@
 				<div class="panel-heading">Home</div>
 
 				<div class="panel-body">
-                                    <p>Yay homepage!!!</p>
+                                    <p>Yay homepage!</p>
                                     <p>Testing PULL</p>
 				</div>
 			</div>
