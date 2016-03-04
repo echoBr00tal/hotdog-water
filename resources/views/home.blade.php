@@ -14,5 +14,14 @@
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		{!! Form::open() !!}
+		<div class="form-group">
+			{!! Form::label('textinput', 'Label:') !!} 
+			{!! Form::text('textinput', null, ['class'=> 'form-control']) !!} 
+		</div>
+		
+		{!! Form::close() !!}
+	</div>
 </div>
 @endsection

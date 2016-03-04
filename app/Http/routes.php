@@ -20,6 +20,8 @@ Route::get('contact', 'WelcomeController@contact');
 Route::get('about', 'WelcomeController@about');
 ########END PAGES ROUTES
 
+Route::get('events', 'EventsController@index');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
