@@ -20,7 +20,17 @@ Route::get('contact', 'WelcomeController@contact');
 Route::get('about', 'WelcomeController@about');
 ########END PAGES ROUTES
 
-Route::get('events', 'EventsController@index');
+
+########Events
+Route::resource('events', 'EventsController');
+
+//Route::get('events', 'EventsController@index');
+//Route::get('events/create', 'EventsController@create');
+//Route::get('events/{slug}', 'EventsController@show');
+//Route::post('events', 'EventsController@store');
+//Route::get('events/{slug}/edit', 'EventsController@edit');
+
+########END Events
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
