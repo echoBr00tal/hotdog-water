@@ -20,6 +20,13 @@ Route::get('contact', 'WelcomeController@contact');
 Route::get('about', 'WelcomeController@about');
 ########END PAGES ROUTES
 
+########Blog
+Route::get('blog/create', 'BlogController@create');
+Route::get('blog/edit/{id}', 'BlogController@edit');
+Route::get('blog/{slug}', 'BlogController@show');
+Route::get('blog', 'BlogController@index');
+########END Blog
+
 
 ########Events
 Route::resource('events', 'EventsController');
