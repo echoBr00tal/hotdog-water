@@ -22,9 +22,15 @@ Route::get('about', 'WelcomeController@about');
 
 ########Blog
 Route::get('blog/create', 'BlogController@create');
+
 Route::get('blog/edit/{id}', 'BlogController@edit');
+Route::post('blog/edit/{id}', 'BlogController@update');
+
 Route::get('blog/{slug}', 'BlogController@show');
+
 Route::get('blog', 'BlogController@index');
+Route::post('blog', 'BlogController@save');
+
 ########END Blog
 
 

@@ -24,6 +24,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3><a href="/blog/{{$post->slug}}">{{$post->title}}</a></h3>
+                            <em>{{$post->published}}</em>
                         </div>
                         <div class="panel-body">
                             <em>{{$post->author}}</em> - {{$post->summary}}
