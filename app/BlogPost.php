@@ -11,6 +11,7 @@ class BlogPost extends Model {
         'blog_category_id',
         'slug',
         'summary',
+        'published',
     ];
 
 }
