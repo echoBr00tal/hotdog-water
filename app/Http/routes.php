@@ -20,6 +20,10 @@ Route::get('contact', 'WelcomeController@contact');
 Route::get('about', 'WelcomeController@about');
 ########END PAGES ROUTES
 
+########ADMIN
+Route::get('admin', 'AdminController@index');
+########END ADMIN
+
 ########Blog
 Route::get('blog/create', 'BlogController@create');
 
